@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive
+}
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 104, 179);
+}
+p{
+    font-size: 2.5rem;
+    color: white;
+    margin: 4%;
+}
+.eventos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contform{
+    display: flex;
+    flex-direction: column;
+
+}
+.formulario{
+    width: 400px;
+    height: 230px;
+    background-color: rgb(131, 0, 145);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 9px 5px rgb(219, 42, 255) ;
+    margin-bottom: 4%;
+    
+}
+#nombreEvento, #fechaEvento{
+    width: 290px;
+    height: 40px;
+    border-radius: 0.5rem;
+    border-color:  rgb(255, 104, 179);
+    margin-bottom: 1%;
+}
+#agregar{
+    width: 290px;
+    height: 40px;
+    border-radius: 0.6rem;
+    background-color: rgb(255, 104, 179);
+    border: none;
+    margin-top: 2%;
+}
+.listaEventos2{
+    height:250px ;
+    width: 450px;
+    color: white;
+    background-color: rgb(131, 0, 145);
+    border-radius: 0.5rem;
+    
+}
+.diasFaltantes{
+    color: rgb(23, 153, 0);
+    font-size: 2rem;
+}
+.nombreEvento{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.3rem; 
+    margin-right: 20%;
+}
+
+
+button.eliminar{
+    padding: 10%;
+    background-color: rgb(53, 255, 53);
+    border: none;
+    border-radius:0.2rem ;
+    margin-left: 5%;
+}
+button.eliminar:hover{
+    transition: 0.5s;
+    background-color: red;
+    color: white;
+}
+.dias{
+    margin-right: 20%;
+    margin-left: 5%;
+}
+.evento{
+    display: flex;
+    flex-direction: row;
+    border: 4px solid rgb(255, 104, 179);
+    border-radius: 0.5rem;
+    padding: 4%;
+    margin: 4%;   
+}
